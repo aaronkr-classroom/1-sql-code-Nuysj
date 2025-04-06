@@ -33,16 +33,10 @@ ORDER BY 학년, 성적 ASC
 
 **07 다음 중 SELECT 문의 질의를 계산하는 순서로 맞는 것은?**
 
-1. FROM—WHERE—ORDER BY—SELECT—GROUP BY—HAVING
 2. FROM-WHERE-GROUP BY―HAVING―SELECT一ORDER BY
-3. WHERE—FROM—ORDER BY—GROUP BY—HAVING—SELECT
-4. WHERE—GROUP BY—HAVING—FROM—SELECT—ORDER BY
 
 **08 SO L의 GROUP BY 에 대한 설명으로 옳지 않은 것은?**
 
-1. SELECT절에 GROUP BY절에서 사용한 속성을 명세한다.
-2. GROUP BY절은 그룹화할 기준 속성을 명세한다.
-3. 조건을 부여하려면 HAVING절을 사용한다.
 4. 반드시 WHERE절을 사용해야 한다.
 
 **09 다음문장이 참이면 0, 거짓이면 x 를하시오.**
