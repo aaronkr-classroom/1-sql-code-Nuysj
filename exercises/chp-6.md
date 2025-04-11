@@ -3,7 +3,6 @@
 **01 CREATE TABLE 명령문에서 속성의 제약 조건 설정을 위한 것이 아닌 것은?**
 
 1. CASCADE
-3. CHECK
 
 **02 다음 중 CREATE TABLE 구문으로 명세할 수 없는 것은?**
 
@@ -19,23 +18,14 @@
 
 **05 사용자가 허가받은 권한을 다른 사용자에게도 부여할 수 있도록 허용하는 SOL문을 작성할 때 필요한명령어옵션은?**
 
-1. WITH ROLE OPTION
-2. WITH AUTHORITY OPTION
-3. WITH PUBLIC OPTION
 4. WITH GRANT OPTION
 
 **06 다음 SOL 관련 명령어 중 DCL과 가장 연관성이 낮은 것은?**
 
 1. EXEC
-2. REVOKE
-3. GRANT
-4. CREATE USER
 
 **07 다음 GRANT 구문 중 옳지 않은 것은?**
 
-1. GRANT INSERT, DELETE ON 학생 TO 홍길동 WITH GRANT OPTION
-2. GRANT UPDATE(점수) ON 수강 TO 홍길동
-3. GRANT ALL ON 학생 TO 홍길동
 4. GRANT FOREIGN KEY(소속학과명) ON 교수 TO 홍길동
 
 **08 다음 보기의 GRAN丁와 REVOKE 문장의 실행 결과는?**
