@@ -103,14 +103,14 @@ WHERE 성별="여"
 ```
 
 1. db.회원.insertOne({_id: "m111", 나이: 55, 성별: "남"});
-2. ___
+2. db.회원.insertOne({_id: "mw222", 나이: null, 성별: null, 메모: "임시 회원임"});
 3. db.회원.find();
-4. ___
-5. ___
+4. db.회원.findOne({성별: {$nin: ["남"]}}); 
+5. db.회원.find({성별: "남"}).sort({나이: 1});
 6. db.회원.find({_id:{$exist:true}}).count();
-7. ___
+7. db.회원.updateMany({$set: {성별: "여"}}, {나이: {$gt: 25}});
 8. db.회원.deleteMany({});
-9. ___
+9. db.회원.deleteMany({성별: "여"});
 
 **10 4가지 NoSQL 데이터베이스 유형의 특성을 비교 • 요약하시오.**
 
