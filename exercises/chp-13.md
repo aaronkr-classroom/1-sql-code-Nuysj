@@ -61,8 +61,8 @@ ADD 탈퇴 날짜 DATETIME;
 DROP TABLE 회원;
 ```
 
-1. ___
-2. ___
+1. db.creatCollection("회원")
+2. db.updateMany({}, {$set: {탈퇴날짜 : ""}})
 3. db.회원.drop()
 
 **09 다음 투플 관련 SQL 명령문에 대응하는 문서 관련 몽고DB 명령문(1~9)을 작성하시오.**
